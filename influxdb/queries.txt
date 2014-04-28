@@ -1,0 +1,3 @@
+select mean(temp) from readings group by time(60m);
+select mean(humidity) from readings group by time(60m);
+select mean(moisture) from readings group by time(60m);
